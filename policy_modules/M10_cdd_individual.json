@@ -1,0 +1,63 @@
+{
+  "module_id": "M10_cdd_individual",
+  "section_number": 10,
+  "section_title": "Client Due Diligence: General Requirements and CDD for Individuals",
+  "applicability": {
+    "always_include": true
+  },
+  "content_blocks": [
+    {
+      "block_id": "cdd_general_basis",
+      "always_include": true,
+      "text": "## 10. Client Due Diligence: General Requirements and CDD for Individuals\n\n### 10.1 Basis and Objective\n\n#### 10.1.1 Need for Robust CDD (Paragraph 4.1.1)\n\nIn accordance with Paragraph 4.1.1 of the 2026 FIU-IND Guidelines, the Company recognises the anonymous and instantaneous nature of VDA transactions and the potential for services offered by Reporting Entities to be misused by illicit actors for money laundering, terror financing, and proliferation financing. The Company therefore maintains a robust Client Due Diligence (CDD) mechanism in place at all times.\n\n#### 10.1.2 When CDD Shall Be Applied (Paragraph 4.1.2)\n\nThe Company shall apply CDD to verify the identity of a client:\n\n(a) When establishing a business relationship with the client;\n\n(b) Where the Company does not have records of the identity of an existing client;\n\n(c) When there is suspicion of ML/TF/PF, regardless of any thresholds;\n\n(d) When there is doubt about the veracity or adequacy of previously obtained identification information or documents;\n\n(e) For carrying out periodic profile updation of existing clients.\n\n#### 10.1.3 Statutory Anchor (Paragraph 4.1.3)\n\nIn accordance with Rule 9 of the PML Rules, the Company shall identify and verify the identity of its clients at the time of establishing the relationship, and thereafter at periodic intervals or upon any doubt about the authenticity or adequacy of previously obtained information."
+    },
+    {
+      "block_id": "cdd_general_process",
+      "always_include": true,
+      "text": "\n### 10.2 CDD Process: Mandatory Elements\n\nIn accordance with Paragraph 4.1.4 of the 2026 Guidelines, the Client Due Diligence process shall include, at a minimum, the following:\n\n#### 10.2.1 Core CDD Elements (Paragraph 4.1.4(a))\n\nFor every client, the Company shall:\n\n(a) Identify the client by obtaining their details and documents;\n\n(b) Verify the client's identity using reliable and independent sources of identification;\n\n(c) Develop a client risk profile based on a holistic assessment of available and open-source information;\n\n(d) Conduct ongoing due diligence through continuous monitoring of client transactions and activities, as set out in Section 12 of this Policy;\n\n(e) Update client information periodically, or upon triggering events involving changes in the client's profile, as set out in Section 11.3 of this Policy.\n\n#### 10.2.2 Additional Identifiers (Paragraph 4.1.4(b))\n\nThe Company shall collect additional identifiers necessary for verification, authentication, monitoring, and risk assessment purposes, including:\n\n(a) IP address with timestamp;\n\n(b) Geo-location coordinates;\n\n(c) Device ID;\n\n(d) VDA wallet addresses;\n\n(e) Transaction hashes;\n\n(f) Any other parameters considered necessary by the Company in light of its risk assessment.\n\n#### 10.2.3 Mandatory PAN Verification (Paragraph 4.1.4(c))\n\nThe Company shall mandatorily obtain and verify the Permanent Account Number (PAN) of every client for onboarding and for undertaking any VDA-related activity. Compliance with this requirement is part of the Company's CDD measures and is non-negotiable."
+    },
+    {
+      "block_id": "cdd_individual_applicability_intro",
+      "include_if": {
+        "customer_base": ["Retail only", "Both retail and institutional"]
+      },
+      "text": "\n### 10.3 CDD Measures for Individual Clients"
+    },
+    {
+      "block_id": "cdd_individual_applicability_institutional_only",
+      "include_if": {
+        "customer_base": ["Institutional only"]
+      },
+      "text": "\n### 10.3 CDD Measures for Individual Clients\n\nAlthough the Company's primary customer base is institutional, individual CDD requirements apply to:\n\n(a) Authorised signatories and account operators of institutional clients;\n\n(b) Beneficial owners of institutional clients;\n\n(c) Any individual director, partner, trustee, or controlling person of an institutional client.\n\nIn addition, where the Company onboards any individual client (whether as the principal account holder or otherwise), the following provisions apply."
+    },
+    {
+      "block_id": "cdd_individual_minimum_info",
+      "always_include": true,
+      "text": "\n#### 10.3.1 Minimum Client Information to Be Captured (Paragraph 4.2.1)\n\nAt the time of establishing a relationship with an individual client, the Company shall obtain, at a minimum, the following information:\n\n**(a) Personal Information**\n\n(i) Full name as appearing in PAN;\n\n(ii) Date of birth;\n\n(iii) Gender;\n\n(iv) PAN details;\n\n(v) Identity document type;\n\n(vi) Identity document number;\n\n(vii) Nationality.\n\n**(b) Contact Details**\n\n(i) Address;\n\n(ii) Mobile number;\n\n(iii) Email ID.\n\n**(c) Financial and Occupation Details**\n\n(i) Occupation;\n\n(ii) Income range;\n\n(iii) Bank account details.\n\n**(d) Other Parameters**\n\n(i) Selfie of the client with liveness detection;\n\n(ii) Latitude and longitude coordinates of the onboarding location, with date and timestamp, along with IP address."
+    },
+    {
+      "block_id": "cdd_individual_identity_documents",
+      "always_include": true,
+      "text": "\n#### 10.3.2 Identity Documents Required (Paragraph 4.2.2)\n\nFor the purpose of CDD, the Company shall collect:\n\n(a) PAN (mandatory in all cases); AND\n\n(b) Any one of the following identity documents (or the equivalent e-document):\n\n(i) Passport;\n\n(ii) Driving Licence;\n\n(iii) Proof of possession of Aadhaar number;\n\n(iv) Voter's Identity Card issued by the Election Commission of India;\n\n(v) Or any equivalent e-document thereof containing details of identity and address.\n\nThe identity document collected shall contain details of both identity and address. Where the document does not include an updated address, supplementary address proof shall be required.\n\n#### 10.3.3 Verification of Information (Paragraph 4.2.3)\n\nThe Company shall verify and validate the client information and documents furnished for CDD purposes through reliable and independent sources of identification.\n\nSpecifically:\n\n(a) **Mobile Number verification:** Through One-Time Password (OTP) validation and/or link verification;\n\n(b) **Email ID verification:** Through OTP validation and/or link verification;\n\n(c) **Identity document verification:** Through the issuing authority's database or other reliable independent source;\n\n(d) **PAN verification:** From the Income Tax Department's PAN verification facility."
+    },
+    {
+      "block_id": "cdd_individual_verification_vendor",
+      "include_if": {
+        "tech_stack": ["Sumsub", "Onfido"]
+      },
+      "text": "\n\nWhere the Company uses a third-party KYC vendor for identity verification, the Company shall ensure:\n\n(i) The vendor is contracted with appropriate data protection and confidentiality safeguards;\n\n(ii) Verification results are documented in the client's CDD file along with the vendor reference;\n\n(iii) The Company periodically reviews vendor performance, including false-positive and false-negative rates;\n\n(iv) Reliance on the vendor does not absolve the Company of its statutory CDD obligations under PMLA and PML Rules."
+    },
+    {
+      "block_id": "cdd_individual_verification_manual",
+      "include_if_not": {
+        "tech_stack": ["Sumsub", "Onfido"]
+      },
+      "text": "\n\nWhere the Company conducts identity verification in-house (without a third-party KYC vendor), the Company shall ensure:\n\n(i) Verification is performed by trained AML/CFT/CPF personnel;\n\n(ii) Verification follows a documented procedure with defined acceptance criteria;\n\n(iii) Verification results are documented in the client's CDD file with the responsible officer identified;\n\n(iv) Independent quality review is performed on a sample basis."
+    },
+    {
+      "block_id": "cdd_individual_liveness_geo",
+      "always_include": true,
+      "text": "\n#### 10.3.4 Verification of Personal Presence (Paragraph 4.2.4)\n\nThe Company shall ensure that the client whose credentials are being furnished is the same individual actually accessing the Company's application and personally initiating the account creation process.\n\nThe authenticity of such access and personal presence shall be established by:\n\n(a) Capturing a live photograph of the client; and\n\n(b) Employing liveness detection technology to verify the client's physical presence at the time of onboarding.\n\nFailure of liveness detection, or evidence that the credentials are being furnished by a person other than the actual client, shall trigger termination of the onboarding process. The matter shall be escalated to the Principal Officer for assessment, including evaluation of whether the matter warrants suspicious transaction reporting under Section 15 of this Policy.\n\n#### 10.3.5 Geo-Location Capture (Paragraph 4.2.5)\n\nThe Company's onboarding system shall be equipped to accurately capture the geo-location coordinates (latitude and longitude) of the client, in order to establish the precise location at which the verification process is undertaken.\n\nIn case of a mismatch between the address furnished by the client and the geo-coordinates captured during onboarding, enhanced measures under CDD shall be undertaken in accordance with Section 11.2 of this Policy.\n\n#### 10.3.6 Penny-Drop Bank Account Verification (Paragraph 4.2.6)\n\nVerification of the client's bank account shall be carried out through a penny-drop mechanism, for the purpose of confirming both ownership and operational status of the account.\n\nThe penny-drop mechanism involves a nominal amount being credited to the client's bank account, with verification of the account holder's name and account status returned by the receiving bank. The Company shall retain records of the penny-drop verification result, including timestamp, in the client's CDD file."
+    }
+  ]
+}

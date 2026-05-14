@@ -1,0 +1,20 @@
+{
+  "module_id": "M01_document_control",
+  "section_number": 1,
+  "section_title": "Document Control",
+  "applicability": {
+    "always_include": true
+  },
+  "content_blocks": [
+    {
+      "block_id": "dc_header",
+      "always_include": true,
+      "text": "## 1. Document Control\n\n**Document Title:** Anti-Money Laundering, Counter-Financing of Terrorism, and Counter-Proliferation Financing Policy (AML/CFT/CPF Policy)\n\n**Entity Name:** {firm_name}\n\n**Document Owner:** Principal Officer, AML/CFT/CPF Compliance\n\n**Approval Authority:** Board of Directors (or designated Committee of the Board)\n\n**Effective Date:** [To be inserted upon Board approval]\n\n**Version:** 1.0 (Initial)\n\n**Review Cadence:** This Policy shall be subject to an independent annual review pursuant to Paragraph 3.4.3(c) of the FIU-IND AML & CFT Guidelines dated January 8, 2026, to assess its continued effectiveness. Such review shall be undertaken by person(s) other than those involved in framing this Policy. In addition to the annual independent review, the Policy shall be updated upon: (i) any material change in applicable statutes, rules, or regulatory guidance; (ii) significant changes in {firm_name}'s business profile, customer base, or service offerings; (iii) findings from the independent annual audit of AML/CFT/CPF controls conducted pursuant to Paragraph 3.6.3 of the 2026 Guidelines; or (iv) any specific directions, red-flag indicators, typologies, or guidance issued by FIU-IND from time to time.\n\n**Distribution:** Board of Directors, Designated Director, Principal Officer, AML/CFT/CPF compliance team, internal audit function, and all officers and employees engaged in customer-facing, transaction-handling, or compliance functions.\n\n**Confidentiality:** Internal use only. The risk classification of any client and the specific reasons for such classification shall be kept confidential, in accordance with Paragraph 3.6.2(d) of the 2026 Guidelines. The fact of maintenance of records and furnishing of information to FIU-IND shall be kept strictly confidential at all times, in accordance with Section 12(2) and Section 12A(3) of the PMLA read with Rule 8(6) of the PML Rules.\n\n**Public Summary:** A clear, comprehensive, and concise summary of this Policy shall be prominently displayed and made accessible on {firm_name}'s official website and/or mobile application accessed by users for onboarding and login, in accordance with Paragraph 3.4.5 of the 2026 Guidelines."
+    },
+    {
+      "block_id": "dc_version_history",
+      "always_include": true,
+      "text": "\n### 1.1 Version History\n\n| Version | Date | Author | Approved By | Summary of Changes |\n|---------|------|--------|-------------|---------------------|\n| 1.0 | [Date] | Principal Officer | Board of Directors | Initial version |\n\n*Subsequent versions to be recorded as amendments occur.*"
+    }
+  ]
+}

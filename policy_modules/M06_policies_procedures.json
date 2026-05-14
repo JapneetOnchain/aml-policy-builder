@@ -1,0 +1,25 @@
+{
+  "module_id": "M06_policies_procedures",
+  "section_number": 6,
+  "section_title": "AML/CFT/CPF Policies and Procedures",
+  "applicability": {
+    "always_include": true
+  },
+  "content_blocks": [
+    {
+      "block_id": "pp_intro",
+      "always_include": true,
+      "text": "## 6. AML/CFT/CPF Policies and Procedures\n\n### 6.1 Statutory Basis\n\nIn accordance with Rule 9(14)(ii) and (iii) of the PML Rules and Paragraph 3.4.1 of the 2026 FIU-IND Guidelines, the Company shall formulate and implement AML/CFT/CPF policies and procedures (collectively, this Policy) to combat money laundering, terrorist financing, proliferation financing, and other related serious crimes.\n\nIn accordance with Rule 7(3) of the PML Rules, the Company shall evolve an internal mechanism to detect transactions specified under Rule 3 of the PML Rules and to furnish information about such transactions to FIU-IND.\n\n### 6.2 Duty of Observance\n\nIn accordance with Paragraph 3.4.2 of the 2026 Guidelines, it shall be the duty of the Company, its Designated Director, officers, and employees to observe the procedure and the manner of furnishing information under Rule 5 and Rule 7 of the PML Rules."
+    },
+    {
+      "block_id": "pp_content",
+      "always_include": true,
+      "text": "\n### 6.3 Required Content of Policies and Procedures\n\nIn accordance with Paragraph 3.4.3 of the 2026 Guidelines, this Policy:\n\n(a) **Group basis (Paragraph 3.4.3(a)):** Where applicable, constitutes a statement of policies on a Group basis, as per Rule 3A of the PML Rules, for dealing with ML, TF, and PF risks, reflecting current statutory and regulatory requirements. The term \"Group\" shall have the meaning assigned to it in Rule 2(1)(cba) of the PML Rules;\n\n(b) **Communication and understanding (Paragraph 3.4.3(b)):** Shall be communicated to and understood by the management, all officers, and staff members of the Company;\n\n(c) **Independent annual review (Paragraph 3.4.3(c)):** Shall be subject to an independent annual review to assess its continued effectiveness. Such review shall be undertaken by person(s) other than those involved in framing this Policy;\n\n(d) **Client acceptance and CDD measures (Paragraph 3.4.3(d)):** Adopts client acceptance policies and procedures and undertakes Client Due Diligence (CDD) measures to the extent that is sensitive to the risk of ML, TF, and PF, depending on the type of client, business relationship, transaction behaviour, geographic areas, products, and services. Detailed CDD requirements are set out in Section 10 of this Policy;\n\n(e) **System for identifying and reporting transactions (Paragraph 3.4.3(e)):** Maintains a system in place for identifying, monitoring, and timely reporting of suspicious transactions, threshold-based reports, typologies with ML/TF/PF risk, etc., to FIU-IND. Detailed reporting requirements are set out in Section 14 of this Policy;\n\n(f) **Information furnishing under Section 12A (Paragraph 3.4.3(f)):** Maintains an internal mechanism for furnishing any records or information to FIU-IND within such time and in such manner as desired by FIU-IND under Section 12A of the PMLA;\n\n(g) **Cooperation with law enforcement (Paragraph 3.4.3(g)):** Maintains mechanisms for cooperation with law enforcement agencies, including timely disclosure of required information;\n\n(h) **High-risk jurisdiction third-party products (Paragraph 3.4.3(h)):** Ensures that products or services of any third party based in known high-risk jurisdictions are not utilised or availed by the Company."
+    },
+    {
+      "block_id": "pp_public_summary",
+      "always_include": true,
+      "text": "\n### 6.4 Public Summary of Policies\n\nIn accordance with Paragraph 3.4.5 of the 2026 Guidelines, the Company shall ensure that a clear, comprehensive, and concise summary of this Policy is prominently displayed and made accessible on the Company's official website and/or mobile application accessed by users for onboarding and login.\n\nThe public summary shall:\n\n(a) Be written in plain language accessible to retail users;\n\n(b) Be updated whenever this Policy is materially revised;\n\n(c) Be accessible at no cost and without requiring login;\n\n(d) Identify the Company as a Reporting Entity registered with FIU-IND;\n\n(e) Include a statement of the Company's commitment to AML/CFT/CPF compliance and the consequences of attempting to use the Company's services for prohibited purposes.\n\nThe public summary shall be maintained and updated by the Principal Officer."
+    }
+  ]
+}

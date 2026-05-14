@@ -1,0 +1,100 @@
+{
+  "module_id": "M14_sanctions_screening",
+  "section_number": 14,
+  "section_title": "Sanctions Screening",
+  "applicability": {
+    "always_include": true
+  },
+  "content_blocks": [
+    {
+      "block_id": "ss_basis",
+      "always_include": true,
+      "text": "## 14. Sanctions Screening\n\n### 14.1 Statutory and Regulatory Basis\n\nIn accordance with Paragraph 5.4 of the 2026 FIU-IND Guidelines and applicable Indian and international sanctions frameworks, the Company shall implement and maintain a robust sanctions screening programme as part of its AML/CFT/CPF compliance.\n\nThe applicable sanctions frameworks include:\n\n(a) United Nations Security Council Resolutions (UNSCRs) relating to the suppression and combating of terrorism, terrorist financing, and proliferation of weapons of mass destruction and its financing;\n\n(b) Designations of terrorists and terrorist organisations under the Unlawful Activities (Prevention) Act, 1967 (UAPA);\n\n(c) Restrictions under the Weapons of Mass Destruction and their Delivery Systems (Prohibition of Unlawful Activities) Act, 2005 (WMDA);\n\n(d) Any other applicable laws, regulatory requirements, and guidelines in relation to economic sanctions.\n\nDirectives issued by competent authorities under any of the above frameworks shall be promptly applied by the Company."
+    },
+    {
+      "block_id": "ss_when_screening_required",
+      "always_include": true,
+      "text": "\n### 14.2 When Sanctions Screening Shall Be Performed (Paragraph 5.4.1)\n\nIn accordance with Paragraph 5.4.1 of the 2026 Guidelines, sanctions screening shall be carried out, at a minimum, in each of the following situations:\n\n(a) **At the time of onboarding** of a new client;\n\n(b) **During change in KYC details** of an existing client (whether through periodic updation or upon a triggering event);\n\n(c) **Upon change in any applicable sanctions list** (including additions, modifications, or removals of designated persons or entities);\n\n(d) **At the time any VDA transaction is initiated** (covering both originator and beneficiary screening, as set out in Section 13 of this Policy).\n\nThese are minimum screening triggers. The Company may apply additional screening cadences (for example, periodic re-screening of the full client base) based on its risk assessment under Section 8.1 of this Policy."
+    },
+    {
+      "block_id": "ss_unscr_application",
+      "always_include": true,
+      "text": "\n### 14.3 Application of UNSCR-Based Directives (Paragraph 5.4.2)\n\nIn accordance with Paragraph 5.4.2 of the 2026 Guidelines, the Company shall ensure prompt application of directives, when issued by the competent authorities, for implementing United Nations Security Council Resolutions (UNSCRs) relating to:\n\n(a) The suppression and combating of terrorism;\n\n(b) Terrorist financing;\n\n(c) Proliferation of weapons of mass destruction and its financing;\n\n(d) Other related directives.\n\nThe Company shall also ensure compliance with all other applicable laws, regulatory requirements, and guidelines in relation to economic sanctions.\n\nDirectives shall be implemented through:\n\n(i) Immediate update of the Company's sanctions screening list whenever a designation is added, modified, or removed;\n\n(ii) Re-screening of the existing client base against the updated list;\n\n(iii) Where a match is identified, immediate freezing of assets and reporting in accordance with applicable law;\n\n(iv) Documentation of all designation-related actions taken by the Company."
+    },
+    {
+      "block_id": "ss_uapa_wmda",
+      "always_include": true,
+      "text": "\n### 14.4 Application of UAPA and WMDA Directives (Paragraph 5.4.3)\n\nIn accordance with Paragraph 5.4.3 of the 2026 Guidelines, the Company shall ensure prompt application of:\n\n#### 14.4.1 UAPA Designations\n\nDirectives, when issued by competent authorities, relating to individuals and entities designated as 'terrorist' under the Unlawful Activities (Prevention) Act, 1967 (UAPA).\n\n#### 14.4.2 WMDA Directives\n\nDirectives, when issued by competent authorities, under the Weapons of Mass Destruction and their Delivery Systems (Prohibition of Unlawful Activities) Act, 2005 (WMDA).\n\n#### 14.4.3 Operational Application\n\nFor both UAPA and WMDA directives, the Company shall:\n\n(a) Monitor the publication of designations and directives through official government channels (Ministry of Home Affairs, Ministry of External Affairs, FIU-IND notifications);\n\n(b) Update its sanctions screening list immediately upon publication;\n\n(c) Re-screen its existing client base against the updated list;\n\n(d) Apply the freezing, reporting, and blocking measures prescribed by the relevant directive;\n\n(e) Coordinate with FIU-IND and other relevant authorities as required by the directive."
+    },
+    {
+      "block_id": "ss_no_transfer_without_screening",
+      "always_include": true,
+      "text": "\n### 14.5 No VDA Transfer Without Screening (Paragraph 5.4.4)\n\nIn accordance with Paragraph 5.4.4 of the 2026 Guidelines, the Company shall put in place appropriate safeguards to ensure that no VDA transfers are completed without sanctions screening.\n\nThe safeguards adopted by the Company shall include, but not be limited to, the following indicative measures specified in Paragraph 5.4.4:\n\n(a) **Wallet hold mechanism:** Placing a wallet on hold until screening is completed and confirmed that no concern is raised;\n\n(b) **Intermediate wallet mechanism:** Arranging to receive a VDA transfer with a provider's wallet that links to a client's wallet, and moving the transferred VDA to the client's wallet only after screening is completed and has confirmed that no concern is raised.\n\nThe specific technical implementation of these safeguards shall be documented in the Company's sanctions screening operating procedures, separate from this Policy."
+    },
+    {
+      "block_id": "ss_screening_lists_base",
+      "always_include": true,
+      "text": "\n### 14.6 Operational Framework for Sanctions Screening\n\n#### 14.6.1 Screening Lists Maintained\n\nThe Company shall maintain a consolidated sanctions screening list that includes, at a minimum:\n\n(a) UNSCR Consolidated List (1267/1989/2253 Al-Qaeda and Da'esh Sanctions List);\n\n(b) UNSCR 1718 List (Democratic People's Republic of Korea sanctions);\n\n(c) UNSCR 2231 List (Iran-related sanctions);\n\n(d) Any other UNSCR-mandated list applicable to India;\n\n(e) UAPA-designated terrorists and terrorist organisations as published by the Ministry of Home Affairs;\n\n(f) WMDA-related designations and restrictions."
+    },
+    {
+      "block_id": "ss_screening_lists_cross_border",
+      "include_if": {
+        "cross_border_element": [
+          "Indian customers + NRI",
+          "Indian customers + foreign customers"
+        ]
+      },
+      "text": "\n\nGiven the Company's cross-border customer profile, the Company shall additionally maintain access to (as supplementary lists, not primary regulatory obligation):\n\n(g) OFAC Specially Designated Nationals (SDN) List;\n\n(h) EU Consolidated Financial Sanctions List;\n\n(i) UK HM Treasury Consolidated List;\n\n(j) Other jurisdiction-specific sanctions lists relevant to the Company's customer geographies.\n\nThe Company shall document the basis for inclusion of any additional list and the implementation methodology. The Indian sanctions priority (UNSCR + UAPA + WMDA) remains the Company's primary regulatory obligation; supplementary lists are maintained for enhanced risk management."
+    },
+    {
+      "block_id": "ss_screening_lists_domestic",
+      "include_if": {
+        "cross_border_element": ["Indian-only customers"]
+      },
+      "text": "\n\nThe Company's customer base is restricted to Indian residents and Indian-domiciled entities. The Indian sanctions priority (UNSCR + UAPA + WMDA) is sufficient for the Company's primary regulatory obligation. The Company may, based on its risk assessment, choose to maintain supplementary international sanctions lists (OFAC SDN, EU, UK Consolidated Lists) as additional risk management measures, particularly for counterparty Reporting Entity due diligence."
+    },
+    {
+      "block_id": "ss_screening_methodology",
+      "always_include": true,
+      "text": "\n#### 14.6.2 Screening Methodology\n\nThe Company's sanctions screening shall:\n\n(a) Apply fuzzy matching and transliteration to capture name variations;\n\n(b) Cover both individuals and legal entities;\n\n(c) Include beneficial owners of corporate clients (as identified under Section 11.1.2 of this Policy);\n\n(d) Cover counterparty parties in VDA transfers as set out in Section 13 of this Policy;\n\n(e) Include screening of associated wallet addresses, where address-level sanctions data is available;\n\n(f) Be subject to alert tuning to balance false positive rates against the risk of false negatives.\n\n#### 14.6.3 Alert Handling\n\nFor every potential match generated by sanctions screening:\n\n(a) The alert shall be escalated to a designated compliance officer for review;\n\n(b) The reviewer shall determine whether the alert is a true match, a false positive, or requires additional information for resolution;\n\n(c) Where the alert is determined to be a true match, all transactions involving the matched party shall be immediately frozen, and the matter shall be escalated to the Principal Officer;\n\n(d) The Principal Officer shall assess whether the match triggers reporting obligations under any applicable directive, and shall apply prescribed freezing, reporting, and blocking measures;\n\n(e) False positives shall be documented with the rationale for the determination, and the rationale shall be made available for internal audit and regulatory review;\n\n(f) All alert handling records shall be retained in accordance with Section 16 of this Policy."
+    },
+    {
+      "block_id": "ss_banking_fully",
+      "include_if": {
+        "banking_status": ["Fully banked"]
+      },
+      "text": "\n\n#### 14.6.4 Banking Counterparty Screening (Operational Consideration)\n\nGiven the Company's stable multi-bank relationships, the Company shall additionally implement screening of banking counterparties to ensure no fiat-leg of transactions inadvertently flows through accounts or relationships connected to sanctioned parties. This shall include:\n\n(i) Periodic screening of all banking counterparties (banks holding Company operating accounts, banks holding customer fiat balances, payment service providers, settlement counterparties) against applicable sanctions lists;\n\n(ii) Documented procedures for handling sanctions matches involving banking counterparties, including engagement with the bank, suspension of affected flows, and reporting to FIU-IND where applicable;\n\n(iii) Coordination with banking counterparties on any sanctions-related compliance enquiries received from their side regarding Company customers or transactions.\n\nThis operational measure reflects the Company's banking integration and is not a separate regulatory requirement under the 2026 Guidelines."
+    },
+    {
+      "block_id": "ss_banking_unbanked",
+      "include_if": {
+        "banking_status": ["Unbanked"]
+      },
+      "text": "\n\n#### 14.6.4 Sanctions Screening for VDA-Only Flow Model\n\nGiven the Company's current unbanked or pre-banking operational status, sanctions screening is implemented with respect to VDA-side flows. The Company shall:\n\n(i) Apply sanctions screening to all VDA transaction parties (originator, beneficiary, and identified counterparties) as set out in Sections 13 and 14.5 of this Policy;\n\n(ii) Where the Company's settlement model involves third-party payment service providers or alternative settlement arrangements, ensure that such arrangements include documented sanctions-screening responsibility allocation, and validate that the third party meets equivalent screening standards;\n\n(iii) Reassess sanctions screening scope upon establishment of direct banking relationships, expanding to include banking counterparty screening as set out in standard practice;\n\n(iv) Document the current operational configuration in the Company's sanctions screening operating procedures.\n\nThis operational measure reflects the Company's current banking integration status and is subject to expansion as banking arrangements are established."
+    },
+    {
+      "block_id": "ss_pre_transfer_screening",
+      "always_include": true,
+      "text": "\n#### 14.6.5 Pre-Transfer Screening for VDA Transactions\n\nFor every VDA transaction initiated by or processed for a client, the Company shall ensure that:\n\n(a) Sanctions screening of both originator and beneficiary is completed before the transaction is permitted to settle;\n\n(b) Where the Company acts as the originating Reporting Entity in a transfer to another Reporting Entity, the beneficiary's name is screened against sanctions lists (in accordance with Section 13.3(e) of this Policy);\n\n(c) Where the Company acts as the beneficiary Reporting Entity in a transfer from another Reporting Entity, the originator's name is screened against sanctions lists (in accordance with Section 13.4(b) of this Policy);\n\n(d) No transfer shall be permitted to settle until screening clearance is confirmed."
+    },
+    {
+      "block_id": "ss_list_maintenance_vendor",
+      "include_if": {
+        "tech_stack": ["Chainalysis", "TRM Labs", "Elliptic"]
+      },
+      "text": "\n#### 14.6.6 List Maintenance and Updates\n\nGiven the Company's deployment of third-party sanctions screening tooling, the Company shall:\n\n(a) Subscribe to the vendor's up-to-date sanctions and watchlist data feeds;\n\n(b) Verify automated mechanisms in the vendor tool to detect and apply list updates within 24 hours of publication, or sooner where required by directive;\n\n(c) Maintain documented procedures for handling vendor downtime or data feed delays;\n\n(d) Periodically validate the completeness and accuracy of the lists maintained by the vendor against direct source publications;\n\n(e) Document each list update event, including source, timestamp, and any client base re-screening performed."
+    },
+    {
+      "block_id": "ss_list_maintenance_manual",
+      "include_if": {
+        "tech_stack": ["in-house", "none"]
+      },
+      "text": "\n#### 14.6.6 List Maintenance and Updates\n\nGiven the Company's in-house sanctions screening approach, the Company shall:\n\n(a) Designate a sanctions compliance officer responsible for monitoring and applying sanctions list updates;\n\n(b) Subscribe to relevant alerts from FIU-IND, Ministry of Home Affairs, Ministry of External Affairs, and other relevant Indian authorities;\n\n(c) Implement documented manual procedures to detect and apply list updates within 24 hours of publication, or sooner where required by directive;\n\n(d) Document the source and timestamp of each list update;\n\n(e) Periodically validate the completeness and accuracy of the lists maintained;\n\n(f) Maintain consideration of transition to vendor tooling as the Company's transaction volume and client base grow."
+    },
+    {
+      "block_id": "ss_coordination",
+      "always_include": true,
+      "text": "\n#### 14.6.7 Coordination with FIU-IND and Other Authorities\n\nWhere a sanctions match results in freezing, blocking, or reporting actions, the Company shall coordinate with FIU-IND and other relevant authorities (Ministry of Home Affairs, Ministry of External Affairs, Enforcement Directorate) in accordance with applicable law and directives.\n\nThe Company shall maintain records of all such coordination, including communications, instructions received, and actions taken."
+    }
+  ]
+}

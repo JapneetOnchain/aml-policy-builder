@@ -1,0 +1,80 @@
+{
+  "module_id": "M09_capacity_building",
+  "section_number": 9,
+  "section_title": "Capacity Building and Training",
+  "applicability": {
+    "always_include": true
+  },
+  "content_blocks": [
+    {
+      "block_id": "cb_intro",
+      "always_include": true,
+      "text": "## 9. Capacity Building and Training\n\nIn accordance with Paragraph 3.7 of the 2026 FIU-IND Guidelines, the Company shall undertake capacity building of its personnel covering: (i) screening at the recruitment stage; (ii) ongoing AML/CFT/CPF training; (iii) instruction manuals for operational procedures; and (iv) role-specific training customisation."
+    },
+    {
+      "block_id": "cb_recruitment",
+      "always_include": true,
+      "text": "\n### 9.1 Recruitment Screening (Paragraph 3.7(a))\n\nThe Company shall ensure that adequate screening mechanism is put in place as an integral part of its recruitment process of personnel. The screening shall include, at minimum:\n\n(a) Verification of educational and professional qualifications claimed by the candidate;\n\n(b) Verification of prior employment history;\n\n(c) Reference checks with prior employers, where feasible;\n\n(d) Criminal background check, including in respect of any prior conviction or pending proceedings under PMLA or related statutes;\n\n(e) Sanctions screening of the candidate against UNSCR, UAPA, and WMDA-related lists;\n\n(f) For candidates being recruited into AML/CFT/CPF functions, additional verification of AML/CFT-specific qualifications and experience.\n\nRecords of screening shall be maintained in the personnel file of each employee."
+    },
+    {
+      "block_id": "cb_training_program_base",
+      "always_include": true,
+      "text": "\n### 9.2 Ongoing Employee Training Programme (Paragraph 3.7(b))\n\nThe Company shall maintain an ongoing employee training programme to ensure that members of staff are adequately trained in implementing AML/CFT/CPF measures.\n\nThe training programme shall include:\n\n(a) **Induction training:** Mandatory training for all new employees within 30 days of joining, covering the Company's AML/CFT/CPF framework, this Policy, and the employee's specific obligations;\n\n(b) **Annual refresher training:** All employees engaged in customer-facing, transaction-handling, or compliance functions shall undergo refresher training at least once every calendar year;\n\n(c) **Update training:** Targeted training upon material regulatory changes, including the issuance of new guidance, red-flag indicators, or typologies by FIU-IND;\n\n(d) **Board and senior management awareness:** At least annual awareness sessions for the Board and senior management on emerging ML/TF/PF risks, regulatory developments, and the Company's AML/CFT/CPF program status."
+    },
+    {
+      "block_id": "cb_training_function_solo",
+      "include_if": {
+        "compliance_staffing": ["Solo Principal Officer"]
+      },
+      "text": "\n\n(e) **Principal Officer continuing professional development:** Given the Company's current compliance staffing, the Principal Officer shall undertake at least one external AML/CFT/CPF training programme per calendar year (industry conference, regulatory certification, or specialised course), to supplement in-house knowledge and stay current with emerging risks and typologies."
+    },
+    {
+      "block_id": "cb_training_function_team",
+      "include_if": {
+        "compliance_staffing": ["Small team 2-5", "Larger team 6+"]
+      },
+      "text": "\n\n(e) **Function-specific training:** Enhanced training for personnel in AML/CFT/CPF functions, including the AML compliance team, transaction monitoring team, sanctions screening team, and any personnel directly involved in STR drafting and filing. Function-specific training shall be conducted at least twice annually and shall cover emerging typologies, red-flag indicators, and regulatory updates relevant to the specific function."
+    },
+    {
+      "block_id": "cb_str_training_nascent",
+      "include_if": {
+        "str_history": ["Nascent"]
+      },
+      "text": "\n\n### 9.2.1 STR Capacity Building Programme (Foundational)\n\nGiven the Company's nascent STR filing posture, the Company shall implement a foundational STR capacity-building programme covering:\n\n(a) **Baseline STR awareness training:** Mandatory for all customer-facing, transaction-handling, and compliance personnel. Content shall cover the definition of suspicious transactions, common typologies in the VDA sector, the Company's escalation pathway, and the absolute prohibition on tipping-off;\n\n(b) **Workshop-based STR drafting exercises:** The AML/CFT/CPF team shall undertake at least two workshop sessions per year working through sanitised case studies of FIU-IND-published typologies, focusing on grounds-of-suspicion articulation, supporting evidence assembly, and report-quality standards;\n\n(c) **PO mentorship:** The Principal Officer shall identify one or more external AML/CFT/CPF professionals (whether through industry associations, FIU-IND-led forums, or independent consultants) to consult on early STR drafting cases, to accelerate organisational learning;\n\n(d) **Documentation discipline from day one:** Even before the first STR is filed, the compliance team shall maintain a documented log of all alerts, investigations, and disposition decisions, building the evidentiary discipline required for high-quality STR submission when the time comes.\n\nThis foundational programme is intended to ensure that, when the Company's first STR filing occurs, it meets the quality and timeliness standards required by Paragraph 5.5 of the 2026 FIU-IND Guidelines."
+    },
+    {
+      "block_id": "cb_str_training_regular",
+      "include_if": {
+        "str_history": ["Regular"]
+      },
+      "text": "\n\n### 9.2.1 Advanced STR Training Programme\n\nGiven the Company's established STR filing record, the Company shall implement an advanced STR training programme covering:\n\n(a) **Emerging typology updates:** Quarterly training sessions for the AML/CFT/CPF team on emerging ML/TF/PF typologies in the VDA sector, including DeFi-based laundering patterns, cross-chain mixing techniques, peel-chain detection, and sanctions evasion methodologies;\n\n(b) **STR quality enhancement workshops:** Semi-annual workshops focused on continuously improving STR narrative quality, supporting-evidence completeness, and grounds-of-suspicion specificity. Workshops shall incorporate feedback from FIU-IND, where available, and learnings from internal STR review;\n\n(c) **FIU-IND red-flag indicator integration:** Whenever FIU-IND publishes new red-flag indicators, typologies, or guidance, dedicated training sessions shall be held within 30 days to ensure operational integration;\n\n(d) **Cross-functional escalation training:** Periodic training for customer service, technology, and operations personnel on identifying STR-relevant signals and escalating to the AML/CFT/CPF team;\n\n(e) **Post-filing review and learning:** Periodic reviews of filed STRs to identify quality patterns, gaps, and opportunities for systemic improvement.\n\nThis advanced programme reflects the Company's mature STR posture and the operational discipline required to maintain consistent reporting quality at scale."
+    },
+    {
+      "block_id": "cb_training_documentation",
+      "always_include": true,
+      "text": "\n\nAttendance, content, and assessment outcomes of all training sessions shall be documented and retained in accordance with Section 16 of this Policy."
+    },
+    {
+      "block_id": "cb_manuals_base",
+      "always_include": true,
+      "text": "\n### 9.3 Instruction Manuals (Paragraph 3.7(c))\n\nThe Company shall set out instruction manuals on the procedures for:\n\n(a) Client onboarding;\n\n(b) Client Due Diligence;\n\n(c) Sanctions Screening;\n\n(d) Record-keeping;\n\n(e) Transaction monitoring;\n\n(f) Suspicious transaction identification, escalation, and reporting;\n\n(g) Travel Rule compliance;\n\n(h) Handling of unhosted wallet transactions;\n\n(i) Response to regulatory inquiries from FIU-IND, law enforcement agencies, and other regulators."
+    },
+    {
+      "block_id": "cb_manuals_vendor_specific",
+      "include_if": {
+        "tech_stack": [
+          "Sumsub",
+          "Chainalysis",
+          "TRM Labs",
+          "Elliptic"
+        ]
+      },
+      "text": "\n\nWhere the Company uses third-party vendor tools (including but not limited to KYC verification, blockchain analytics, sanctions screening, and transaction monitoring vendors), the instruction manuals shall also cover:\n\n(j) Vendor-specific operating procedures, including alert review workflows, configuration management, and escalation paths within the vendor tool;\n\n(k) Vendor performance monitoring, including periodic review of alert accuracy, false positive rates, and coverage completeness;\n\n(l) Procedures for handling vendor downtime, outages, or data discrepancies."
+    },
+    {
+      "block_id": "cb_manuals_review",
+      "always_include": true,
+      "text": "\n\nThese instruction manuals shall be consistent with this Policy, the 2026 Guidelines, PMLA, and PML Rules. The manuals shall be reviewed at least annually and updated whenever this Policy or the underlying regulations change.\n\n### 9.4 Customised Training (Paragraph 3.7(d))\n\nTraining requirements and the training programme shall be specifically customised for the staff handling issues arising from AML/CFT/CPF. Customisation shall reflect:\n\n(a) The specific functional role of the staff (onboarding, transaction monitoring, sanctions screening, STR drafting, internal audit, etc.);\n\n(b) The risk profile of the products, services, and client segments the staff is responsible for;\n\n(c) The complexity of the typologies and red-flag indicators relevant to the staff's function;\n\n(d) Lessons learned from prior internal incidents, escalations, regulatory feedback, and external enforcement actions in the VDA sector."
+    }
+  ]
+}

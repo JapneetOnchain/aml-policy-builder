@@ -1,0 +1,99 @@
+{
+  "module_id": "M08_internal_control",
+  "section_number": 8,
+  "section_title": "Internal Control and Oversight",
+  "applicability": {
+    "always_include": true
+  },
+  "content_blocks": [
+    {
+      "block_id": "ic_intro",
+      "always_include": true,
+      "text": "## 8. Internal Control and Oversight\n\nIn accordance with Paragraph 3.6 of the 2026 FIU-IND Guidelines, the Company maintains internal controls and oversight mechanisms covering: (i) periodic risk assessment; (ii) risk classification of clients; and (iii) independent review of policies, controls, systems, procedures, and safeguards."
+    },
+    {
+      "block_id": "ic_risk_assessment",
+      "always_include": true,
+      "text": "\n### 8.1 Risk Assessment\n\n#### 8.1.1 Statutory and Regulatory Basis\n\nIn accordance with Rule 9(13) of the PML Rules and Paragraph 3.6.1 of the 2026 Guidelines, the Company shall carry out a Risk Assessment exercise periodically to identify, assess, and take effective measures to mitigate its ML/TF/PF risk.\n\n#### 8.1.2 Purpose (Paragraph 3.6.1(b))\n\nThe Risk Assessment is designed and implemented to assist the Company in better understanding its risk exposure and the areas in which it should prioritise allocation of resources for appropriate control and oversight of its AML/CFT/CPF activities.\n\n#### 8.1.3 Scope of Risk Assessment (Paragraph 3.6.1(a) and 3.6.1(c))\n\nThe Risk Assessment shall identify, assess, and take effective measures to mitigate ML/TF/PF risk in respect of, severally and together:\n\n(a) Clients;\n\n(b) Geographic areas;\n\n(c) Products;\n\n(d) Services;\n\n(e) Transactions;\n\n(f) Channels and delivery mechanisms.\n\nA key component of the Risk Assessment shall identify areas where the Company's products and services could be exposed to ML/TF/PF risks, including (but not limited to):\n\n(i) VDAs and VDA-related products or services, in particular methods through which Anonymity-Enhancing Transactions may be conducted;\n\n(ii) VDA-related business and professional practices;\n\n(iii) Technologies and tools associated with VDA activities;\n\n(iv) Clients carrying out extremely complex or high-value transactions;\n\n(v) Clients carrying out transactions with known high-risk jurisdictions.\n\nFurther, prior to the launch of new technologies, products, or services, the Company shall carry out a proper risk assessment to identify, assess, and mitigate the ML/TF/PF risks that may arise."
+    },
+    {
+      "block_id": "ic_risk_assessment_proportionality_small",
+      "include_if": {
+        "annual_transaction_volume": ["<₹100 cr", "₹100-500 cr"]
+      },
+      "text": "\n\n#### 8.1.4 Documentation and Periodicity for Current Scale (Paragraph 3.6.1(d))\n\nThe Risk Assessment shall be properly documented and proportionate to the nature, size, geographical presence, and complexity of activities of the Company. Given the Company's current scale, the Risk Assessment shall:\n\n(a) Cover all dimensions set out in Section 8.1.3 above;\n\n(b) Be conducted at intervals not exceeding twelve (12) months;\n\n(c) Be documented in a written Risk Assessment Report approved by the Board;\n\n(d) Be supplemented by interim reviews upon material changes to business, customer base, or regulatory environment;\n\n(e) Be made available to relevant authorities (including FIU-IND) on request."
+    },
+    {
+      "block_id": "ic_risk_assessment_proportionality_large",
+      "include_if": {
+        "annual_transaction_volume": ["₹500-2000 cr", ">₹2000 cr"]
+      },
+      "text": "\n\n#### 8.1.4 Documentation and Periodicity for Current Scale (Paragraph 3.6.1(d))\n\nThe Risk Assessment shall be properly documented and proportionate to the nature, size, geographical presence, and complexity of activities of the Company. Given the Company's scale and complexity, the Risk Assessment shall:\n\n(a) Cover all dimensions set out in Section 8.1.3 above, with particular depth on areas of operational complexity (multiple product lines, cross-border activity, institutional client segments where applicable);\n\n(b) Be conducted at intervals not exceeding twelve (12) months. Higher-risk business segments may be subject to more frequent assessment cycles as determined by the Board;\n\n(c) Be documented in a comprehensive written Risk Assessment Report approved by the Board, supported by underlying methodology documentation;\n\n(d) Include quantitative analysis (transaction patterns, customer segmentation, geographic distribution) and qualitative analysis (typology-based risks, emerging vulnerabilities, regulatory horizon scanning);\n\n(e) Be supplemented by interim reviews upon material changes to business, customer base, or regulatory environment;\n\n(f) Be supported by an integrated risk dashboard providing the Board with real-time visibility into key risk indicators;\n\n(g) Be made available to relevant authorities (including FIU-IND) on request."
+    },
+    {
+      "block_id": "ic_risk_assessment_board_reporting",
+      "always_include": true,
+      "text": "\n#### 8.1.5 Board Reporting (Paragraph 3.6.1(e))\n\nThe outcome of the Risk Assessment exercise and the mitigation measures identified and implemented shall be put up to the Board. The Risk Assessment documentation shall be made available to relevant authorities (including FIU-IND) as and when required."
+    },
+    {
+      "block_id": "ic_risk_classification",
+      "always_include": true,
+      "text": "\n### 8.2 Risk Classification of Clients\n\n#### 8.2.1 Board-Approved Framework\n\nIn accordance with Paragraph 3.6.2 of the 2026 Guidelines, the Company maintains a Board-approved framework laying down principles for risk classification of its clients.\n\n#### 8.2.2 Minimum Risk Categories (Paragraph 3.6.2(a))\n\nClients shall be classified at the minimum under two categories:\n\n(a) **High Risk**\n\n(b) **Medium Risk**\n\nThe Company may develop further categories over and above these two minimum categories for clients with higher risk perception (for example, an additional Low Risk category or a Prohibited category for relationships that cannot be onboarded).\n\nThe parameters and factors for determining risk perception under each category, including those relevant for suspicious transaction monitoring and application of enhanced measures under CDD, are clearly defined and objectively laid out in the Company's Risk Classification Framework, approved by the Board."
+    },
+    {
+      "block_id": "ic_risk_classification_retail_emphasis",
+      "include_if": {
+        "customer_base": ["Retail only", "Both retail and institutional"]
+      },
+      "text": "\n\n#### 8.2.3 Retail Risk Classification Parameters\n\nFor retail clients, the Company's risk classification framework shall give weighted consideration to:\n\n(a) Customer geography (FATF grey/black-listed jurisdictions);\n\n(b) PEP status and adverse media findings;\n\n(c) Source of funds clarity;\n\n(d) Transaction velocity, value, and pattern relative to declared income;\n\n(e) Use of unhosted wallets in transaction history;\n\n(f) Onboarding-stage anomalies (liveness verification failures, geo-coordinate mismatch);\n\n(g) Sanctions list proximity (including immediate family or close associate considerations for PEPs)."
+    },
+    {
+      "block_id": "ic_risk_classification_institutional_emphasis",
+      "include_if": {
+        "customer_base": ["Institutional only", "Both retail and institutional"]
+      },
+      "text": "\n\n#### 8.2.4 Institutional Risk Classification Parameters\n\nFor institutional clients, the Company's risk classification framework shall give weighted consideration to:\n\n(a) Nature of business activity (regulated entity, VDA SP counterparty, non-VDA business, etc.);\n\n(b) Geographic footprint of operations (FATF jurisdiction risk);\n\n(c) Complexity of ownership and control structure (including beneficial ownership chains);\n\n(d) Regulatory standing (existing registrations, sanctions, ongoing investigations);\n\n(e) Source of funds and source of wealth of the entity and key beneficial owners;\n\n(f) Counterparty profile (other VDA SPs they transact with, banking relationships);\n\n(g) Transaction volume and velocity relative to declared business;\n\n(h) Non-Profit Organisation status (where applicable, with DARPAN registration consideration)."
+    },
+    {
+      "block_id": "ic_risk_classification_periodic_review",
+      "always_include": true,
+      "text": "\n#### 8.2.5 Parameters for Risk Classification (Paragraph 3.6.2(b))\n\nThe risk classification of clients shall be undertaken based on parameters including but not limited to:\n\n(a) Client's identity;\n\n(b) Client's financial position;\n\n(c) Nature of business activity;\n\n(d) Information about the client's business and its location;\n\n(e) Geographical risk, covering both clients and transactions;\n\n(f) Type of products and services offered to the client;\n\n(g) Types of transactions undertaken by the client.\n\nThe specific weighting and decision logic applied to these parameters shall be documented in the Company's Risk Classification Framework and approved by the Board.\n\n#### 8.2.6 Periodic Review of Classification (Paragraph 3.6.2(c))\n\nThe Company shall have a system in place for periodic review of risk classification of accounts. **Such review shall be undertaken at least once every six (6) months.**\n\nReclassifications shall also be triggered upon:\n\n(a) Material changes in client profile, transaction patterns, or stated business activity;\n\n(b) Adverse media findings indicating involvement in financial crime, corruption, or sanctions evasion;\n\n(c) Sanctions list changes affecting the client;\n\n(d) Findings from transaction monitoring or escalations from the AML/CFT/CPF team;\n\n(e) Inquiries or directions from law enforcement agencies or regulators concerning the client;\n\n(f) Expiry or update of client identification documents or PEP screening data.\n\n#### 8.2.7 Confidentiality (Paragraph 3.6.2(d))\n\nThe risk classification of a client and the specific reasons for such classification shall be kept confidential. Such information shall not be disclosed to the client or to any third party except as required by applicable law or in response to lawful requests from FIU-IND, law enforcement agencies, regulators, or courts."
+    },
+    {
+      "block_id": "ic_independent_audit",
+      "always_include": true,
+      "text": "\n### 8.3 Independent Annual Audit of AML/CFT/CPF Controls\n\n#### 8.3.1 Mandatory Independent Audit (Paragraph 3.6.3)\n\nIn accordance with Paragraph 3.6.3 of the 2026 Guidelines, the Company shall cause an independent annual audit of its AML/CFT/CPF controls, systems, procedures, and safeguards. The Company shall undertake corrective actions for deficiencies, if any, identified through such audit.\n\n#### 8.3.2 Audit Cadence and Scope\n\n(a) **Cadence:** The audit of AML/CFT/CPF controls shall be conducted at least once every year;\n\n(b) **Focus:** The audit shall focus particularly on compliance with this Policy, related procedures, and controls relating to AML/CFT/CPF;\n\n(c) **Robustness assessment:** The audit reports shall specifically comment on the robustness of this Policy and the internal processes, and shall make suggestions where necessary to strengthen the Policy and its implementation;\n\n(d) **Board reporting:** The audit report shall be placed before the Board or a designated Board Committee of the Company."
+    },
+    {
+      "block_id": "ic_audit_scope_small",
+      "include_if": {
+        "annual_transaction_volume": ["<₹100 cr", "₹100-500 cr"]
+      },
+      "text": "\n\n#### 8.3.3 Scope Calibration for Current Scale\n\nGiven the Company's current scale, the annual audit shall cover the following dimensions:\n\n(a) Governance (Designated Director and Principal Officer functions);\n\n(b) Risk Assessment and Risk Classification framework;\n\n(c) Customer Due Diligence (sample-based file review);\n\n(d) Transaction Monitoring effectiveness;\n\n(e) Sanctions Screening effectiveness;\n\n(f) STR filing quality and timeliness (sample-based);\n\n(g) Record-keeping adequacy;\n\n(h) Travel Rule compliance.\n\nSample sizes shall be statistically defensible and reflect the Company's transaction and customer base."
+    },
+    {
+      "block_id": "ic_audit_scope_large",
+      "include_if": {
+        "annual_transaction_volume": ["₹500-2000 cr", ">₹2000 cr"]
+      },
+      "text": "\n\n#### 8.3.3 Scope Calibration for Current Scale\n\nGiven the Company's scale and complexity, the annual audit shall cover the following dimensions in comprehensive detail:\n\n(a) Governance (Designated Director, Principal Officer, and Board oversight functions);\n\n(b) Risk Assessment methodology and execution;\n\n(c) Risk Classification framework, including parameter weighting and review cadence adherence;\n\n(d) Customer Due Diligence (sample-based file review across customer segments and risk classifications);\n\n(e) Transaction Monitoring system effectiveness, including rule calibration, alert disposition quality, and false-positive rate analysis;\n\n(f) Sanctions Screening effectiveness, including list maintenance, screening cadence, and alert disposition;\n\n(g) STR filing quality, timeliness, and grounds-of-suspicion documentation (sample-based across STR population);\n\n(h) Record-keeping adequacy, including tamper-proof audit trail integrity;\n\n(i) Travel Rule compliance (originator/beneficiary data completeness, counterparty due diligence, sanctions screening pre-transfer);\n\n(j) Cross-functional coordination (technology, business operations, customer service);\n\n(k) Vendor and third-party AML/CFT compliance;\n\n(l) Training programme effectiveness.\n\nSample sizes shall be statistically defensible. The audit shall employ both substantive testing and walkthrough procedures, and shall include interviews with operational personnel."
+    },
+    {
+      "block_id": "ic_independent_audit_independence",
+      "always_include": true,
+      "text": "\n#### 8.3.4 Independence of Audit\n\nTo ensure independence:\n\n(a) The audit shall be conducted by personnel structurally and functionally independent of the AML/CFT/CPF function of the Company;\n\n(b) The audit may be conducted by internal audit personnel who meet the independence criterion, or by an external auditor commissioned for this purpose;\n\n(c) The audit personnel shall possess demonstrable expertise in AML/CFT/CPF and in the VDA sector."
+    },
+    {
+      "block_id": "ic_remediation_base",
+      "always_include": true,
+      "text": "\n#### 8.3.5 Remediation\n\nThe Company shall develop a documented remediation plan in response to audit findings. The Principal Officer shall report remediation progress to the Board or Board sub-committee on a quarterly basis until all findings are closed."
+    },
+    {
+      "block_id": "ic_remediation_active",
+      "include_if": {
+        "regulatory_engagement": ["Active engagement"]
+      },
+      "text": "\n\nGiven the Company's history of active correspondence or inspection with FIU-IND in the recent past, the Company shall additionally maintain a continuous remediation track record demonstrating closure of issues identified through prior FIU-IND engagements. The remediation track record shall include, at minimum:\n\n(i) A documented register of all observations, directions, or issues raised by FIU-IND in the prior 36 months;\n\n(ii) For each item: the date of raising, the issue summary, the action taken by the Company, the date of closure, and the documented evidence of closure;\n\n(iii) Quarterly Board-level review of the register and confirmation of ongoing closure status;\n\n(iv) Pre-prepared inspection-readiness summary that can be presented to FIU-IND personnel demonstrating remediation discipline."
+    }
+  ]
+}

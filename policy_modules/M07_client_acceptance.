@@ -1,0 +1,63 @@
+{
+  "module_id": "M07_client_acceptance",
+  "section_number": 7,
+  "section_title": "Client Acceptance Framework",
+  "applicability": {
+    "always_include": true
+  },
+  "content_blocks": [
+    {
+      "block_id": "ca_intro",
+      "always_include": true,
+      "text": "## 7. Client Acceptance Framework\n\n### 7.1 Statutory and Regulatory Basis\n\nIn accordance with Paragraph 3.5 of the 2026 FIU-IND Guidelines, the Company has adopted a Board-approved Client Acceptance Framework for the purpose of identifying the types of clients that are likely to pose a higher ML/TF/PF risk.\n\n### 7.2 Core Principles of Client Acceptance\n\nIn accordance with Paragraph 3.5 of the 2026 Guidelines, the Client Acceptance Framework of the Company is built on the following principles:\n\n(a) **No relationship without CDD (Paragraph 3.5(a)):** No relationship or transaction shall be initiated without implementing the appropriate Client Due Diligence (CDD) measures as set out in Section 10 of this Policy;\n\n(b) **Prohibition on anonymous or fictitious accounts (Paragraph 3.5(b)):** The Company shall not allow the opening of, or keep, any anonymous account, account in fictitious names, or accounts on behalf of other persons whose identity has not been disclosed or cannot be verified;\n\n(c) **Triggering enhanced measures on discrepancy (Paragraph 3.5(c)):** Any discrepancy, mismatch, or non-verification of information shall result in the triggering of enhanced measures under CDD, as applicable, in accordance with Section 11 of this Policy;\n\n(d) **Termination on CDD failure (Paragraph 3.5(d)):** In cases where the Company is not able to ascertain the identity of the client, or the information provided by the client is suspected to be false or non-genuine, or appropriate CDD measures or enhanced measures under CDD cannot be applied, the onboarding process shall be terminated and no transaction shall be allowed for such client;\n\n(e) **Sanctions list screening at onboarding (Paragraph 3.5(e)):** A system shall be implemented to ensure that the identity of the client does not match with any person or entity appearing in the Sanctions Lists. Detailed sanctions screening requirements are set out in Section 14 of this Policy;\n\n(f) **Closure of existing accounts without records (Paragraph 3.5(f)):** In case the Company does not have records of the identity of any existing clients (as prescribed under Chapter 4 of the 2026 Guidelines and Section 10 of this Policy), the Company shall obtain such records in a time-bound manner, failing which the Company shall close the account of such clients after giving due notice."
+    },
+    {
+      "block_id": "ca_prohibited_categories",
+      "always_include": true,
+      "text": "\n### 7.3 Categories of Clients Not Onboarded\n\nIn alignment with the Client Acceptance Framework principles set out in Section 7.2 and the Risk Assessment framework set out in Section 8 of this Policy, the Company shall not onboard the following categories of prospective clients:\n\n(a) Any person or entity whose identity matches with any person or entity appearing in the Sanctions Lists (UNSCR designations, UAPA designations, WMDA-related designations) at the time of onboarding;\n\n(b) Persons who refuse or are unable to provide identification documents or information required under CDD as set out in Section 10 of this Policy;\n\n(c) Persons in respect of whom enhanced measures under CDD cannot be applied where such measures are mandatorily required under Paragraph 4.4 of the 2026 Guidelines and Section 11 of this Policy;\n\n(d) Persons whose identity, source of funds, or beneficial ownership cannot be ascertained to the satisfaction of the Company;\n\n(e) Anonymous accounts and accounts in fictitious names;\n\n(f) Accounts opened on behalf of unidentified persons."
+    },
+    {
+      "block_id": "ca_prohibited_cross_border",
+      "include_if": {
+        "cross_border_element": [
+          "Indian customers + NRI",
+          "Indian customers + foreign customers"
+        ]
+      },
+      "text": "\n\n(g) Persons or entities established or operating from jurisdictions designated as high risk by FATF (FATF grey list and black list) where the Company assesses, after enhanced due diligence, that the risk cannot be mitigated to within the Company's risk appetite. Given the Company's cross-border customer profile, jurisdictional risk classification is a particularly significant component of the onboarding decision and shall be documented in each cross-border onboarding case;\n\n(h) Persons or entities engaged in business activities prohibited or restricted under Indian law (including by the Reserve Bank of India under FEMA, by the Ministry of External Affairs, or by the Ministry of Home Affairs)."
+    },
+    {
+      "block_id": "ca_prohibited_indian_only",
+      "include_if": {
+        "cross_border_element": ["Indian-only customers"]
+      },
+      "text": "\n\n(g) Persons or entities established or operating outside India (the Company's customer base is restricted to Indian residents and Indian-domiciled entities). Onboarding of foreign or NRI customers shall require prior Board approval and a documented expansion of the Company's risk framework, including assessment of cross-border AML obligations."
+    },
+    {
+      "block_id": "ca_unbanked_disclosure",
+      "include_if": {
+        "banking_status": ["Unbanked"]
+      },
+      "text": "\n\n### 7.4 Operational Disclosure Regarding Banking Integration Status\n\nThe Company recognises that, given its current pre-banking or unbanked operational status, certain client-facing communications and onboarding flows must address banking integration arrangements transparently. Specifically:\n\n(a) Client-facing onboarding materials shall clearly describe the Company's current arrangements for fiat-to-VDA and VDA-to-fiat settlement, including any third-party payment service provider relationships used;\n\n(b) Where customer funds may be processed through accounts not directly controlled by the Company, the Company shall maintain documented arrangements with such third parties addressing AML/CFT/CPF allocation of responsibilities;\n\n(c) The Company shall not represent to customers that funds are held in any banking arrangement that does not exist;\n\n(d) The Company shall not facilitate any onboarding or transaction where the absence of stable banking integration would result in inability to maintain Travel Rule data, transaction records, or sanctions screening clearance to standards required by this Policy;\n\n(e) The Principal Officer shall maintain a continuous assessment of how the Company's banking integration status affects ML/TF/PF risk and shall reassess this evaluation periodically (at minimum semi-annually) and upon material changes.\n\nThis operational consideration is not a regulatory requirement under the 2026 Guidelines but reflects the Company's commitment to operational transparency and risk management."
+    },
+    {
+      "block_id": "ca_onboarding_procedure",
+      "always_include": true,
+      "text": "\n### 7.5 Onboarding Procedure\n\nThe Company shall implement a documented onboarding procedure that:\n\n(a) Requires application of CDD measures (as set out in Section 10) prior to commencement of any business relationship;\n\n(b) Captures all identification information and supporting documents as required under Paragraphs 4.1 through 4.3 of the 2026 Guidelines;\n\n(c) Conducts sanctions screening prior to account activation;\n\n(d) Applies an initial risk classification to the client (in accordance with Section 8 of this Policy);\n\n(e) Documents the rationale for acceptance, including any enhanced measures applied or any compensating controls;\n\n(f) Records the onboarding decision and the responsible officer;\n\n(g) Retains all onboarding documentation and records in accordance with Section 16 of this Policy."
+    },
+    {
+      "block_id": "ca_onboarding_retail_emphasis",
+      "include_if": {
+        "customer_base": ["Retail only", "Both retail and institutional"]
+      },
+      "text": "\n\n### 7.6 Retail Onboarding Specifics\n\nGiven the Company's retail customer base, retail onboarding shall implement the following specific operational requirements:\n\n(a) **Liveness verification:** Every retail onboarding shall include liveness detection technology to confirm the physical presence of the individual, in accordance with Paragraph 4.2.4 of the 2026 Guidelines;\n\n(b) **Geo-location capture:** Retail onboarding shall capture geo-coordinates (latitude/longitude) with timestamp and IP address, in accordance with Paragraph 4.2.5 of the 2026 Guidelines;\n\n(c) **Penny-drop bank verification:** Bank account ownership and operational status shall be verified through a penny-drop mechanism, in accordance with Paragraph 4.2.6 of the 2026 Guidelines;\n\n(d) **PAN mandatory:** PAN verification is mandatory for every retail onboarding;\n\n(e) **Identity document:** One of the prescribed documents (Passport, Driving Licence, Aadhaar proof, or Voter's ID) is mandatory.\n\nDetailed CDD requirements for individuals are set out in Section 10 of this Policy."
+    },
+    {
+      "block_id": "ca_onboarding_institutional_emphasis",
+      "include_if": {
+        "customer_base": ["Institutional only", "Both retail and institutional"]
+      },
+      "text": "\n\n### 7.7 Institutional Onboarding Specifics\n\nGiven the Company's institutional customer base, institutional onboarding shall implement the following specific operational requirements:\n\n(a) **Entity-level CDD:** Comprehensive Customer Due Diligence on the legal entity, including verification of incorporation, corporate structure, and business activity;\n\n(b) **Beneficial ownership identification:** Identification and verification of all beneficial owners in accordance with Rule 9(3) of the PML Rules and Paragraph 4.3.2 of the 2026 Guidelines;\n\n(c) **Authorised signatories:** Identification and CDD of all individuals authorised to operate the account;\n\n(d) **Source of funds assessment:** Documented assessment of the entity's source of funds and source of wealth, particularly for high-value institutional clients;\n\n(e) **PAN verification:** Mandatory verification of entity PAN from the issuing authority database;\n\n(f) **Constitutional documents:** Collection and verification of Memorandum and Articles of Association, partnership deed, trust deed, or equivalent constitutional documents;\n\n(g) **NPO additional requirement:** Where the institutional client is a Non-Profit Organisation, DARPAN portal registration shall be verified in accordance with Rule 9(9A) of the PML Rules and Paragraph 4.3.3 of the 2026 Guidelines.\n\nDetailed CDD requirements for legal persons are set out in Section 11 of this Policy."
+    }
+  ]
+}

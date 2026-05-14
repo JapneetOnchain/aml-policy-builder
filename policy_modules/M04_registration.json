@@ -1,0 +1,37 @@
+{
+  "module_id": "M04_registration",
+  "section_number": 4,
+  "section_title": "Registration with FIU-IND",
+  "applicability": {
+    "always_include": true
+  },
+  "content_blocks": [
+    {
+      "block_id": "reg_intro",
+      "always_include": true,
+      "text": "## 4. Registration with FIU-IND\n\n### 4.1 Registration as a Mandatory Pre-Requisite\n\nIn accordance with Paragraph 2.1 of the 2026 FIU-IND Guidelines and the provisions of PMLA and PML Rules framed thereunder, registration with FIU-IND is a mandatory pre-requisite for the Company to engage in any activity or operation notified under Ministry of Finance Notification S.O. 1072(E) dated March 7, 2023. Non-registration shall be deemed a violation of the provisions of PMLA and may invite action under Section 13(2) of PMLA, in addition to any other enforcement measures as may be applicable.\n\nThe Company acknowledges that the registration framework as set out in Chapter 2 of the 2026 Guidelines codifies and consolidates the requirements earlier set out in the FIU-IND Circular for Registration of VDA SPs dated September 15, 2025.\n\n### 4.2 Registration Status\n\n**FIU-IND Reporting Entity Identification Number:** [INSERT RE-ID]\n\n**Date of Registration:** [INSERT DATE]\n\n**Director-approved Date of Registration:** [INSERT DATE]\n\nThe Company shall maintain proof of registration and shall produce the same to relevant authorities upon request."
+    },
+    {
+      "block_id": "reg_record_maintenance",
+      "always_include": true,
+      "text": "\n### 4.3 Record-Keeping in Respect of Registration\n\nIn accordance with Paragraph 2.1 of the 2026 Guidelines, the Company shall maintain accurate and comprehensive records relating to its status as a Reporting Entity, including but not limited to:\n\n(a) Details of the Designated Director (name, designation, address, contact details, qualification, and date of appointment);\n\n(b) Details of the Principal Officer (name, designation, address, contact details, qualification, experience, and date of appointment);\n\n(c) Principal place of business in India;\n\n(d) Details of Significant Beneficial Ownership;\n\n(e) Corporate structure including organogram;\n\n(f) Copies of incorporation documents, annual returns, balance sheets, and profit and loss accounts for the last three financial years;\n\n(g) GST registration certificates and returns;\n\n(h) Income tax returns and Forms 26Q/26QF/26QE for TDS on VDA transactions;\n\n(i) Copies of agreements with exchanges, brokers, custodians, intermediaries, or other VDA SPs;\n\n(j) PACT (Partner Accreditation for Compliance and Trust) certificates with FIU-IND-registered counterparties;\n\n(k) CERT-In Cyber Security Audit Certificate.\n\nAny changes to the above shall be promptly updated on the FINGate portal."
+    },
+    {
+      "block_id": "reg_change_management",
+      "always_include": true,
+      "text": "\n### 4.4 Change Management Obligations\n\nThe Company shall update the following information on the FINGate portal:\n\n(a) Changes to Designated Director or Principal Officer (name, designation, contact details): **within 7 days** of occurrence, in accordance with Rule 7(1) of the PML Rules.\n\n(b) Changes to principal place of business: promptly upon occurrence.\n\n(c) Material changes to ownership structure, including changes in Significant Beneficial Ownership: promptly upon occurrence.\n\n(d) Material changes to nature of services or activities: promptly upon occurrence.\n\n(e) Material changes to agreements with other VDA SPs or material counterparties: promptly upon occurrence.\n\nThe Principal Officer shall maintain a register of all such updates submitted to FIU-IND via FINGate, including date of submission and acknowledgement reference, and shall retain such register as part of the Company's records.\n\n### 4.5 In-Person Verification\n\nIn the event that FIU-IND requires an in-person meeting (whether for initial registration, re-verification, or supervisory purposes) in accordance with Paragraph 2.5 of the 2026 Guidelines, the meeting shall be mandatorily attended by the Designated Director and the Principal Officer of the Company. The Company shall be prepared to provide a live demonstration or walkthrough of its AML/CFT/CPF systems and tools, including:\n\n(a) KYC systems;\n\n(b) Transaction Monitoring systems;\n\n(c) Blockchain Analytics tools;\n\n(d) Travel Rule compliance mechanisms;\n\n(e) Sanctions Screening mechanisms;\n\n(f) Other applicable tools enabling fulfillment of obligations under Chapter IV of PMLA, PML Rules, this Policy, and the 2026 Guidelines."
+    },
+    {
+      "block_id": "reg_inspection_readiness_active",
+      "include_if": {
+        "regulatory_engagement": ["Active engagement"]
+      },
+      "text": "\n\nGiven the Company's history of active correspondence or inspection with FIU-IND in the recent past, the Company shall maintain a continuous state of operational readiness for in-person verification, including:\n\n(i) A documented inspection-readiness checklist maintained by the Principal Officer, updated at least quarterly;\n\n(ii) Pre-prepared walkthrough materials for each AML/CFT/CPF system (KYC, TM, sanctions, Travel Rule, blockchain analytics) that can be presented on short notice;\n\n(iii) A cross-functional response protocol identifying personnel responsible for each demonstration area;\n\n(iv) Periodic mock walkthroughs conducted at least semi-annually to validate readiness;\n\n(v) Continuous review of any issues, observations, or directions arising from prior FIU-IND engagements and documented closure thereof."
+    },
+    {
+      "block_id": "reg_risk_denial",
+      "always_include": true,
+      "text": "\n### 4.6 Risk of Denial or Cancellation\n\nThe Company acknowledges that pursuant to Paragraph 2.5.3 of the 2026 Guidelines, the Director, FIU-IND, reserves the right to deny or cancel registration if the Company fails to fulfil its obligations under PMLA. The Company shall therefore ensure ongoing operational readiness to demonstrate compliance at any time."
+    }
+  ]
+}
