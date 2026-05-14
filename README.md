@@ -37,7 +37,7 @@ python -m streamlit run src/app.py
 
 ## Author
 
-Built by Japneet Singh — financial crime compliance professional with five years of AML experience across EY, KPMG, American Express, and NAB.
+Built by Japneet Singh - financial crime compliance professional with five years of AML experience across EY, KPMG, American Express, and NAB.
 
 ## Contributions
 
